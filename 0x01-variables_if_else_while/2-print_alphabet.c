@@ -12,7 +12,7 @@ int man(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
-	prinfg("\n");
+	printf("\n");
 
 	return (0);
 }

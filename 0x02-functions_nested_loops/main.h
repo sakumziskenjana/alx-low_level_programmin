@@ -1,4 +1,4 @@
-#infdef HOLDBERTON_N_INCLUDED
+#ifdef HOLDBERTON_N_INCLUDED
 #define HOLDBERTON_N_INCLUDED
 
 int_putchar(char);

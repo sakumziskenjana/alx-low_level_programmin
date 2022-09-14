@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
  * print_alphabet_x10 - function to print abc 10 times
  *
@@ -8,16 +6,12 @@
  */
 int main(void)
 {
-	int j;
-	int x;
+	int ch;
 
-	for (x = 0; x < 10; x++)
+	for (line = 0; line <= 9; ++line)
 	{
-		for (j = 'a'; j <= 'z'; j++)
-		{
-			_putchar(j);
-		}
+		for (ch = 'a'; ch <= 'z'; ++ch)
+			_putchar(ch);
 		_putchar('\n');
 	}
-	return (0);
 }

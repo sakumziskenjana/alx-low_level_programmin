@@ -1,7 +1,7 @@
-#ifdef HOLDBERTON_N_INCLUDED
+#ifndef HOLDBERTON_N_INCLUDED
 #define HOLDBERTON_N_INCLUDED
 
-int_putchar(char);
+int_putchar(char c);
 void_print_alphabet(void);
 void_print_alphabet_x10(void);
 int _islower(int c);

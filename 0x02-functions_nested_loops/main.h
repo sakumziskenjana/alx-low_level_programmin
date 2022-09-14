@@ -1,5 +1,5 @@
-#ifndef HOLDBERTON_N_INCLUDED
-#define HOLDBERTON_N_INCLUDED
+#ifndef MAIN_H
+#define MAIN_H
 
 int_putchar(char c);
 void_print_alphabet(void);

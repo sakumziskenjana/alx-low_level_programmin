@@ -1,5 +1,4 @@
 #include"main.h"
-#include<stdio.h>
 
 /**
  * _strcat - combines two strings together
@@ -11,7 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int dlen = c, c2;
+	int c, c2;
 
 	c = 0;
 	/*find the size of dest array*/

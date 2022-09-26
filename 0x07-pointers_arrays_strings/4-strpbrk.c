@@ -16,13 +16,13 @@ char *_strpbrk(char *s, char *accept)
 		b = 0;
 		while (accept[b])
 		{
-			if (s[a] == accep[b])
+			if (s[a] == accept[b])
 			{
 				s += a;
 				return (s);
 			}
-		
-		b++;
+
+			b++;
 		}
 
 		a++;

@@ -2,7 +2,6 @@
 
 /**
  * print_diagsums - print the sum of two diagonals of square matrix
- *
  * @a: the matrix
  * @size: the size
  *
@@ -22,6 +21,5 @@ void print_diagsums(int *a, int size)
 		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
 			S2 += a[i];
 	}
-
 	printf("%d, %d\n", S1, S2);
 }

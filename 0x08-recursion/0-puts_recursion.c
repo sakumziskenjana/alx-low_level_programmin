@@ -2,8 +2,9 @@
 
 /**
  * _puts_recursion -prints a string
- * @s: pointer block of memory to fill 
- * Return: void
+ * @s: pointer block of memory to fill
+ *
+ * Return: Nothing
  */
 
 void _puts_recursion(char *s)

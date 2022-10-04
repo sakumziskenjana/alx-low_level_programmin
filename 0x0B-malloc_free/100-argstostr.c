@@ -46,7 +46,7 @@ char *argstostr(int ac, char **av)
 
 		j = 0;
 		k++;
-		l++;
+		i++;
 	}
 
 	k++;

@@ -12,7 +12,7 @@ char **strtow(char *str);
  * Return: The index marking the end of the initial word pointed to by str.
  */
 
-char word_len(char *str)
+int word_len(char *str)
 {
 	int index = 0, len = 0;
 

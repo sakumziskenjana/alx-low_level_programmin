@@ -9,10 +9,10 @@ char **strtow(char *str);
  * word_len - locates the index marking the end of the first word contained in the string
  * @str: The string to be searched
  *
- * Return: The index marking the end of the initial word poited to by str.
+ * Return: The index marking the end of the initial word pointed to by str.
  */
 
-char **strtow(char *str)
+char word_len(char *str)
 {
 	int index = 0, len = 0;
 
@@ -80,7 +80,7 @@ char **strtow(char *str)
 		while (str[index] == ' ')
 			index++;
 
-		letters - word_len(str + index);
+		letters = word_len(str + index);
 
 		strings[w] = malloc(sizeof(char) * (letters + 1));
 

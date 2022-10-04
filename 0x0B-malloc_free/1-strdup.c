@@ -8,7 +8,7 @@
  * Retur: the string duplicated
  */
 
-char *create_array(unsigned int size, char c)
+char *_strdup(char *str)
 {
 	int a = 0, i = 1;
 	char *s;

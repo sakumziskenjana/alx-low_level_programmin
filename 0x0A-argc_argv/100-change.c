@@ -6,7 +6,7 @@
  * @argc: the number of arguments supplied to the program
  * 2argv: An array of pointers to the arguments
  *
- * Return: Always tru
+ * Return: Always 0
  */
 
 int main(int argc, char *argv [])

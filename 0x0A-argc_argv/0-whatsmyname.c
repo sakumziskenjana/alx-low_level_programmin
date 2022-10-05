@@ -1,16 +1,15 @@
 #include<stdio.h>
 
 /**
- * main - print the number of arguments
+ * main - print the program name
  * @argc: The number of argument
  * @argv: An array of pointer
  *
  * Return: Always 0
  */
-
-int main(int argc, char __attribute__((__unused__)) *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	printf("%s\n", argv[0]);
 
 	return (0);
 }

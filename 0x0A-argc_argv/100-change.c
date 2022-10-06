@@ -4,7 +4,7 @@
 /**
  * main - prints the minimum number of coins
  * @argc: the number of arguments supplied to the program
- * 2argv: An array of pointers to the arguments
+ * @argv: An array of pointers to the arguments
  *
  * Return: Always 0
  */

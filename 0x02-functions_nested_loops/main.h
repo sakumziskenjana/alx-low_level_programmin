@@ -7,7 +7,7 @@ void_print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
-itn _abs(int);
+itn _abs(int ab);
 int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);

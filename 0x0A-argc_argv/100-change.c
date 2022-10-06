@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 /**
  * main - prints the minimum number of coins
  * @argc: the number of arguments supplied to the program
@@ -8,7 +7,6 @@
  *
  * Return: Always 0
  */
-
 int main(int argc, char *argv [])
 {
 	int cents, coins = 0;
@@ -44,8 +42,6 @@ int main(int argc, char *argv [])
 		}
 		cents--;
 	}
-
 	printf("%d\n", coins);
-
 	return (0);
 }

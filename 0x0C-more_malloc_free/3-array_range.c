@@ -6,7 +6,7 @@
  * @min: ...
  * @max: ...
  *
- * Return: interger value
+ * Return: integer value
  */
 
 int *array_range(int min, int max)
@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 	if (a == NULL)
 		return (NULL);
 
-	while (min < max)
+	while (min <= max)
 	{
 		a[i] = min;
 		i++;
